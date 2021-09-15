@@ -5,23 +5,24 @@
  */
 package com.mycompany.week3lec2;
 
+// Task 1 
 public class NewClass {
     
-    int getSum(int x, int y){
+    int getStrLngth(String name){
     
-    return x + y; 
+    int x = name.length(); 
+     
+    return x; 
     }
-    
-    
+   
     
     
     public static void main(String[]args){
     
         NewClass nc = new NewClass(); 
-        int x = 100; 
-        int y = 250;
-        int sum = nc.getSum(x,y); 
-        System.out.println("The Sum Is: " + sum);
+        String str = ("Opeyemi");
+        int t = nc.getStrLngth(str);
+        System.out.println("The Number Of Characters There Are: " + t);
     
     
     }
